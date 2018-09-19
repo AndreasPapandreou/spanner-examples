@@ -1,0 +1,20 @@
+# code_qa:
+#     type: basic
+
+# build_binary:
+#     type: 'particle photon'
+#     source_dir: 'app'
+#     build_command: make
+#     binary_name: binary_demo
+#     pre_flight:
+#     post_flight:
+#     on_failure:
+#     on_success:
+
+testing:
+    source_dir: 'examples/complex-tests/measure-power-consumption/scenario.py'    
+#     binary_update:
+#         platform: 'particle photon'
+#         binary: auto
+#         binary: https://drive.google.com/open?id=1pqwckXPclrgKaeJy3-7hWkkfVH2b-61l
+#         binary: binary/binary_test.bin

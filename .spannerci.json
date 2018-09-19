@@ -1,7 +1,0 @@
-{ 
-  "code_quality": false,
-  "build_binary": false,
-  "deploy": false,
-  "tests": false,
-  "script": "examples/basic-tests/GPIO/read-analog-input/scenario.py"
-}
